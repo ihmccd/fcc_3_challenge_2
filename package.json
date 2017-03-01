@@ -1,0 +1,15 @@
+{
+  "name": "fcc_3_2",
+  "version": "1.0.0",
+  "description": "freecodecamp second challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ihmccd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "ua-parser-js": "^0.7.12"
+  }
+}
