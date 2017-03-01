@@ -2,6 +2,10 @@ var express = require("express");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
+app.get("/", function(request, response){
+	response.send("please, add '/api/whoami' to the link first");
+});
+
 app.get("/api/whoami", function(request, response){
 	var ip_str = request.connection.remoteAddress;
 	if(ip_str.indexOf(":")!=-1){
